@@ -5,13 +5,14 @@ import React from "react"
 import { useState } from "react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
-import { ChevronRight, Mail, Lock, Eye, EyeOff } from "lucide-react"
+import { ChevronRight, Mail, Lock, Eye, EyeOff, AlertCircle } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
+import { loginUser } from "@/lib/auth"
 
 export default function LoginPage() {
   const router = useRouter()
@@ -28,9 +29,6 @@ export default function LoginPage() {
     setIsLoading(true)
 
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000))
-
       if (!email || !password) {
         setError("Please fill in all fields")
         setIsLoading(false)
@@ -43,20 +41,22 @@ export default function LoginPage() {
         return
       }
 
-      // Save user data to localStorage (in real app, use backend)
-      const userData = {
-        id: Math.random().toString(36).substr(2, 9),
-        email,
-        name: email.split("@")[0],
-        createdAt: new Date().toISOString(),
+      const { user, error: loginError } = await loginUser({ email, password })
+
+      if (loginError) {
+        setError(loginError)
+        setIsLoading(false)
+        return
       }
 
-      localStorage.setItem("ozeetech_user", JSON.stringify(userData))
-      if (rememberMe) {
-        localStorage.setItem("ozeetech_remember_email", email)
-      }
+      if (user) {
+        localStorage.setItem("ozeetech_user", JSON.stringify(user))
+        if (rememberMe) {
+          localStorage.setItem("ozeetech_remember_email", email)
+        }
 
-      router.push("/account")
+        router.push("/dashboard")
+      }
     } catch (err) {
       setError("An error occurred. Please try again.")
     } finally {
