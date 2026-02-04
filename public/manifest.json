@@ -1,0 +1,111 @@
+{
+  "name": "Ozee Tech Ventures - Nigeria's Premier Technology Retailer",
+  "short_name": "Ozee Tech",
+  "description": "Nigeria's most trusted technology retailer since 2009. Shop authentic smartphones, laptops, tablets, and tech accessories with same-day delivery, 30-day tech support, and 100% original products.",
+  "start_url": "https://www.ozeetechventures.com/",
+  "scope": "https://www.ozeetechventures.com/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "en-NG",
+  "background_color": "#ffffff",
+  "theme_color": "#ef4444",
+  "categories": ["shopping", "technology", "business"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Shop Smartphones",
+      "short_name": "Smartphones",
+      "description": "Browse our collection of smartphones",
+      "url": "/products/smartphones",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Shop Laptops",
+      "short_name": "Laptops",
+      "description": "Browse our collection of laptops",
+      "url": "/products/laptops",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Chat with us on WhatsApp",
+      "url": "https://wa.me/2349069178853",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/ozeetech-signpost.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Ozee Tech Ventures Store"
+    },
+    {
+      "src": "/images/ozeetech-official-logo.jpg",
+      "sizes": "640x480",
+      "type": "image/jpeg",
+      "platform": "narrow",
+      "label": "Ozee Tech Ventures Logo"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "dir": "ltr",
+  "iarc_rating_id": "",
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

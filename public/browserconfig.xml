@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="/icon-192.png"/>
+      <square150x150logo src="/icon-192.png"/>
+      <square310x310logo src="/icon-512.png"/>
+      <wide310x150logo src="/icon-512.png"/>
+      <TileColor>#ef4444</TileColor>
+    </tile>
+    <notification>
+      <polling-uri src="https://ozeetech.vercel.app/notifications/feed1"/>
+      <polling-uri2 src="https://ozeetech.vercel.app/notifications/feed2"/>
+      <polling-uri3 src="https://ozeetech.vercel.app/notifications/feed3"/>
+      <polling-uri4 src="https://ozeetech.vercel.app/notifications/feed4"/>
+      <polling-uri5 src="https://ozeetech.vercel.app/notifications/feed5"/>
+      <frequency>30</frequency>
+      <cycle>1</cycle>
+    </notification>
+  </msapplication>
+</browserconfig>
