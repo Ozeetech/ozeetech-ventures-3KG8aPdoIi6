@@ -96,15 +96,15 @@ export function ServicesSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">
+              <a href="https://v0-rwandan-media-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
                 Get Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
+              </a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="https://wa.me/2349069178853?text=Hi! I'm interested in hiring Ozee Tech Ventures for a development project.">
-                WhatsApp Us
-              </Link>
+              <a href="https://v0-rwandan-media-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Contact Us Now
+              </a>
             </Button>
           </div>
         </div>

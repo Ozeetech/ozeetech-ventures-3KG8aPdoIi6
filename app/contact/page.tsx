@@ -80,9 +80,9 @@ export default function ContactPage() {
 
           <div className="text-center">
             <Button size="lg" asChild>
-              <Link href="https://wa.me/2349069178853?text=Hi! I'm interested in hiring Ozee Tech Ventures for a development project.">
+              <a href="https://v0-rwandan-media-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
                 Hire Us Now - Get Free Quote
-              </Link>
+              </a>
             </Button>
           </div>
         </div>
@@ -124,13 +124,15 @@ export default function ContactPage() {
                   <div className="flex items-start">
                     <MessageCircle className="h-5 w-5 mr-3 text-primary" />
                     <div>
-                      <p className="font-medium">WhatsApp (Development Inquiries)</p>
-                      <Link
-                        href="https://wa.me/2349069178853?text=Hi! I'm interested in your development services."
+                      <p className="font-medium">Web Development Solutions</p>
+                      <a
+                        href="https://v0-rwandan-media-ebon.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-sm text-muted-foreground hover:text-primary"
                       >
-                        +234 906 917 8853
-                      </Link>
+                        OZEE TECH Digital Solutions
+                      </a>
                     </div>
                   </div>
 

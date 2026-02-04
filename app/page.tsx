@@ -393,13 +393,13 @@ export default function HomePage() {
 
               <div className="flex flex-col sm:flex-row gap-3 pt-4">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 font-semibold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-lg w-full sm:w-auto h-auto" asChild>
-                  <Link href="/services">
+                  <a href="https://v0-rwandan-media-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
                     Explore Services
                     <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
+                  </a>
                 </Button>
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 font-semibold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-lg w-full sm:w-auto h-auto bg-transparent" asChild>
-                  <a href="https://wa.me/2349069178853" target="_blank" rel="noopener noreferrer">
+                  <a href="https://v0-rwandan-media-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="mr-2 h-5 w-5" />
                     Get Quote
                   </a>

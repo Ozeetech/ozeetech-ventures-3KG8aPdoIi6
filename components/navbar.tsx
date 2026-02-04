@@ -204,12 +204,12 @@ export function Navbar() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/services" legacyBehavior passHref>
+                <a href="https://v0-rwandan-media-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
                     <Code className="h-4 w-4 mr-1" />
                     Services
                   </NavigationMenuLink>
-                </Link>
+                </a>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
@@ -301,10 +301,10 @@ export function Navbar() {
                     ))}
                   </div>
 
-                  <Link href="/services" className="text-base sm:text-lg font-semibold flex items-center space-x-2" onClick={() => setIsOpen(false)}>
+                  <a href="https://v0-rwandan-media-ebon.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-base sm:text-lg font-semibold flex items-center space-x-2" onClick={() => setIsOpen(false)}>
                     <Code className="h-5 w-5" />
-                    <span>Services</span>
-                  </Link>
+                    <span>Web Development</span>
+                  </a>
 
                   <Link href="/deals" className="text-base sm:text-lg font-semibold" onClick={() => setIsOpen(false)}>
                     Deals
