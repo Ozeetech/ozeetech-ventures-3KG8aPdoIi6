@@ -1,0 +1,20 @@
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0, 0)">
+    <rect width="40" height="40" rx="8" fill="#280071"/>
+    <g transform="translate(8, 8)">
+      <path d="M12 0L24 12L12 24L0 12L12 0Z" fill="none"/>
+      <path d="M12 0L24 12H12L12 0Z" fill="#D81E05"/>
+      <path d="M12 24L0 12H12L12 24Z" fill="#D81E05"/>
+      <path d="M12 24L24 12L18 6L12 12V24Z" fill="#D81E05"/>
+    </g>
+  </g>
+  <g transform="translate(50, 12)">
+    <path d="M0 0H10.8L16.2 11.4L21.6 0H32.4V16H25.2V5.4L18.6 16H13.8L7.2 5.4V16H0V0Z" fill="#280071"/>
+    <path d="M35.4 0H42.6L45 8.4L47.4 0H51.6L54 8.4L56.4 0H63.6L57.6 16H52.8L50.4 7.6L48 16H43.2L37.2 0H35.4Z" fill="#280071"/>
+    <path d="M65.4 0H76.2V3.6H72.6V16H69V3.6H65.4V0Z" fill="#280071"/>
+    <path d="M78 0H90V3.6H84.6V6H89.4V9.6H84.6V12.4H90V16H78V0Z" fill="#280071"/>
+    <path d="M91.8 0H98.4C102.6 0 105.6 2.4 105.6 8C105.6 13.6 102.6 16 98.4 16H91.8V0ZM98.4 12.4C100.2 12.4 101.4 11.2 101.4 8C101.4 4.8 100.2 3.6 98.4 3.6H95.4V12.4H98.4Z" fill="#280071"/>
+    <path d="M107.4 0H114.6V6.4L119.4 0H127.2L121 7.2L127.8 16H120L114.6 9.2V16H107.4V0Z" fill="#280071"/>
+  </g>
+</svg>
+
