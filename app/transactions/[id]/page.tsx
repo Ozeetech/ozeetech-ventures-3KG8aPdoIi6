@@ -454,4 +454,3 @@ export default function TransactionDetailPage({ params }: { params: { id: string
     </div>
   )
 }
-

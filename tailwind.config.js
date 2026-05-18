@@ -57,6 +57,12 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Aliases for deprecated Tailwind colors to suppress warnings
+        sky: { 300: "#7dd3fc" },
+        stone: { 300: "#d4d4d8" },
+        neutral: { 300: "#d4d4d4" },
+        gray: { 300: "#d1d5db" },
+        slate: { 300: "#cbd5e1" },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -81,4 +87,3 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
-
